@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
     font-family: 'Work Sans', sans-serif; 
 }
@@ -215,7 +218,18 @@ font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 50px;
+    position: relative;
+    padding-left: 20px;
 }
+
+hr{
+    position: absolute;
+    background-color: #FF900E;
+    height: 100px;
+    width: 5px;
+    margin-top: -95px;
+}
+
 .love_enjoy_titel{
     color: #727272;
     font-size: 16px;
@@ -250,54 +264,145 @@ font-family: 'Work Sans', sans-serif;
 
 
 
-
 .love_enjoy_img img{
     width: 450px;
     height: 712px;
+    position: relative;
 }
+.exper a{
+    position: absolute;
+    padding: 38px 35px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight:700;
+    line-height: 50px;
+    margin-top: -80px;
+    margin-left: -40px;
+
+}
+.exp{
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight:500;
+    line-height: 25px;
+    margin-left: 18px;
+}
+
+
+
 
 /* ============================
     love_enjoy css part end 
 =============================== */
+/* =======================
+     Some Facts css part start 
+======================== */
+.some_box{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 124px;
+    
+}
+.some_text{
+    padding-left: 150px;
+}
+.some_text_headding{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.some_text_titel{
+    color: #131313;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 650px;
+}
+.num{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 53px;
+}
+.some_box_titel{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.boder_box {
+    text-align: center;
+padding:25px 15px;
+}
+.some_box .boder_box{
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+}
 
 
+/* =======================
+     Some Facts css part end 
+======================== */
+/* =======================
+    Sponspors css part start 
+======================== */
+.Sponspos_text{
+    text-align: center;
+    padding: 180px 350px 50px;
+}
+.Sponspos_text .Sponspos_text_headdin {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.Sponspos_text .Sponspos_text_titel {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 20px;
+}
 
 
+.Sponspor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 150px;
+    padding-bottom: 180px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =======================
+    Sponspors css part end 
+======================== */
 
 /* =======================
     common css part start 
 ======================== */
-/* =======================
-    common css part end 
-======================== */
-/* =======================
-    common css part start 
-======================== */
-/* =======================
-    common css part end 
-======================== */
-/* =======================
-    common css part start 
-======================== */
+.footer{
+    background-color: #FFF4E7;
+    margin: 0 180px;
+}
+.footer p{
+    color: #424242;
+    text-align: center;
+    padding: 39px 175px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 150px;
+    
+}
+
+
+
+
 /* =======================
     common css part end 
 ======================== */

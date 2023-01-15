@@ -21,10 +21,10 @@ ul,li{
 }
 
 
-.container{
+/* .container{
     width: 1450px;
     
-}
+} */
 
 /*
 
@@ -45,12 +45,11 @@ header{
 ======================== */
 
 .navber{
-    display: flex;
-    justify-content: center;
+
 }
 .nav{
     display: flex;
-    margin-top: 30px;
+    padding: 90px 0;
     justify-content: space-around;
     align-items: center;
 
@@ -63,7 +62,7 @@ font-size: 45px;
 font-weight: 700;
 line-height: 26px;
 align-items: center;
-font-family: 'Work Sans', sans-serif; 
+
 
 }
 
@@ -77,7 +76,7 @@ font-size: 18px;
 font-weight: 500;
 line-height: 26px;
 align-items: center;
-font-family: 'Work Sans', sans-serif; 
+
 
 }
 
@@ -92,14 +91,13 @@ font-family: 'Work Sans', sans-serif;
     banner css part start 
 ======================== */
 .banner{
-    display: flex;
-    justify-content: center;
+
 }
 .banner_text{
      padding: 0 280px;
     align-items: center;
     text-align: center;
-    padding-top: 205px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .banner_text .heading{
@@ -130,11 +128,8 @@ font-family: 'Work Sans', sans-serif;
 .banner_image{
     display: flex;
     justify-content: center;
-}
-
-
-.banner_image img{
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 
@@ -151,14 +146,16 @@ font-family: 'Work Sans', sans-serif;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 0 150px;
+    padding: 0 135px;
 }
 .list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
 }
 
-.list_img img{
+.list img{
     width: 240px;
     height: 250px;
 }
@@ -384,7 +381,7 @@ padding:25px 15px;
 ======================== */
 
 /* =======================
-    common css part start 
+    footer css part start 
 ======================== */
 .footer{
     background-color: #FFF4E7;
@@ -399,16 +396,176 @@ padding:25px 15px;
     margin-bottom: 150px;
     
 }
-
-
-
-
 /* =======================
-    common css part end 
+    footer css part end 
 ======================== */
+
+
 /* =======================
-    common css part start 
+    Responsive css part start 
 ======================== */
+@media only screen and (max-width:576px) {
+    header{
+        background: none ;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    .manu, ul{
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .banner_text .heading{
+        font-size: 55px;
+    }
+    .banner_image,img{
+        padding-top: 20px;
+        width: 100%;
+    }
+    .banner{
+        background: none;
+    }
+    .banner_text{
+        padding: 0 12px;
+    }
+    /* list item start */
+    .Quick_list{
+        flex-direction: column;
+        padding: 0 0px;
+    }
+.list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.list_text{
+    text-align: center;
+}
+.list_text_heading{
+    font-size: 25px;
+}
+.list_text_titel{
+    font-size: 14px;
+}
+
+
+/* love_enjoy========= */
+
+.love_enjoy{
+    flex-direction: column;
+    padding: 30px 70px;
+}
+
+hr{
+    position: absolute;
+    background-color: #FF900E;
+    height: 200px;
+    width: 5px;
+    margin-top: -185px;
+}
+
+.text{
+    text-align: center;
+}
+.love_enjoy_img img {
+    width: 100%;
+}
+
+.exper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.exper a{
+    text-align: center;
+    padding: 30px 40px;
+    background-color: #FF900E;
+    font-size: 15px;
+
+}
+.exp{
+    font-size: 12px;
+    text-align: center;
+}
+
+/* some facts ======= */
+.some_text{
+    padding: 0;
+    text-align: center;
+}
+
+.some_text_titel{
+    padding: 0 60px;
+
+}
+
+
+.some_box{
+    flex-direction: column;
+   
+}
+.boder_box {
+    text-align: center;
+padding:10px 1px;
+}
+.some_box .boder_box{
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+}
+.some_text_headding{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.num{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.boder_box a img {
+    width: 150px;
+    height: 150px;
+}
+.some_box_titel{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Sponspos_text part  */
+
+.Sponspos_text{
+    padding: 40px 20px;
+}
+.Sponspor{
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.footer p{
+   
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: #FFF4E7;
+    margin: 0 55px;
+    
+}
+
+
+}
+
+
+
 /* =======================
-    common css part end 
+    Responsive css part end 
 ======================== */
